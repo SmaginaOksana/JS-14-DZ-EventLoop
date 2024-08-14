@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  background-image: url(../pics/wallpaper.jpg);
+  background-position: center;
+  width: 400px;
+  height: 700px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid rgb(151, 149, 149);
+  opacity: 0.9;
+  position: relative;
+}
+.container .black {
+  background-color: black;
+  width: 170px;
+  height: 30px;
+  border-radius: 0 0 20px 20px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.container .pics {
+  width: 70px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.container .pics .wifi,
+.container .pics .battery {
+  padding: 5px;
+}
+.container .widget {
+  width: 280px;
+  height: 130px;
+  margin: auto;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.container .widget .date,
+.container .widget .time {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  font-size: 25px;
+}
+.container .widget .time {
+  font-size: 75px;
+}/*# sourceMappingURL=style.css.map */
